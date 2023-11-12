@@ -1,0 +1,14 @@
+Permutation test for adonis under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 999
+
+vegan::adonis2(formula = asv ~ meta2$Structure * meta2$Location, method = "jaccard")
+                               Df SumOfSqs      R2      F Pr(>F)    
+meta2$Structure                 2   1.3905 0.10385 1.7659  0.001 ***
+meta2$Location                  1   1.2018 0.08976 3.0525  0.001 ***
+meta2$Structure:meta2$Location  1   0.5610 0.04190 1.4249  0.031 *  
+Residual                       26  10.2360 0.76450                  
+Total                          30  13.3892 1.00000                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

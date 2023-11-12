@@ -1,0 +1,7 @@
+# A tibble: 4 × 5
+  term                   estimate std.error statistic  p.value
+  <chr>                     <dbl>     <dbl>     <dbl>    <dbl>
+1 (Intercept)                567.      152.      3.73 0.000940
+2 LocationManning Canyon     648.      194.      3.34 0.00253 
+3 StructureShoot            -541       215.     -2.52 0.0184  
+4 StructureSoil             1002.      372.      2.69 0.0123  
